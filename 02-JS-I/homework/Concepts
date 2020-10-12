@@ -1,0 +1,31 @@
+//homework conceptos
+  Expicaciones para una persona de 12 años
+
+	// Variables
+   // Las variables son como una caja donde podemos guardar algo dentro de nuestro código o programa; podemos poner un nombre dentro de esa caja
+    o un número que necesitemos  usar mas adelante, y a esa caja le podemos poner un papel por fuera para recordarnos qué pusimos dentro; de esta manera
+    cuando busquemos esa caja en nuestro código o programa  con el nombre que pusimos en el papel nos va a traer lo que hay dentro de dicha caja; podemos
+    cambiar el contenido del interior de la caja cuantas veces lo necesitemos.
+
+  //Strings
+   // Los strings son varias letras unidas, éstas forman una o varias palabras, todas estas letras unidas unas a otras las podemos ver como una cadena de
+      componentes o caracteres, todo esto va dentro de comillas y le denominamos strings (Siemrpre entre comillas)
+
+	//Funciones (argumentos, `return`)
+    // Las funciones son como instrucciones para hacer hacer alguna tarea en particular, sería como los pasos para hacer una receta de cocina, escribiríamos
+      todos los pasos y cada vez que quisieramos cocinar esa receta solo tendríamos que buscar la funcion; tambien es posible que con una misma funcion
+      tengamos distintos ingredientes, o que los podamos ir cambiando, de acuerdo a lo que tengamos para cocinar y que esas instrucciones se lleven a cabo
+      con los ingredientes (datos) que nosotros tengamos para darle a esa funcion.
+
+
+	//Declaraciones `if`
+    // cuando nosotros decimos "sí yo viajo a europa me voy en avion" en esa frase estamos poniendo la condicion de viajar en avion en el caso de que viajemos
+     a europa, esto seria el "IF" es la condicion que nosotos ponemos; ahora podemos agregar "si no viajo a europa ahorraré para el otro año" esto seria el "ELSE",
+     es decir como no se cumple la primera condicion de viajar a europa en avion entonces haremos otra cosa que dejamos aclarada que será ahorrar.
+
+
+	//Valores booleanos (`true`, `false`)
+    // Los valores Booleanos son basicamente algo que nos permite tener 2 alternativas o "estados" en los que puede estar una parte de nuestro codigo,
+     por ejemplo si queremos comprobar que un numero es mayor que otro por ejmeplo "el numero 15 es mayor que el numero 10" esto es "true" que quiere
+     decir que es verdad, en el caso de que pongamos "el numero 15 es mayor que el numero 20" esto al no ser cierto tendra otro valor booleano que sera
+     "false"
