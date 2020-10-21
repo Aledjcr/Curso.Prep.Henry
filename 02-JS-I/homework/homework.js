@@ -4,7 +4,7 @@
 const nuevaString = "alejandro";
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = 25;
+const nuevoNum =   25;
 
 // Crea una variable booleana:
 const nuevoBool = false;
@@ -28,7 +28,6 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  var str = (ejemplo_de_string);
   return str;
 }
 
@@ -75,7 +74,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (str1.length === str2.length); {
+  if (str1.length === str2.length) {
     return true;
   }
   return false;
@@ -86,9 +85,9 @@ function menosQueNoventa(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (num < 90) {
-    return false;
-  }
-  return true;
+      return true;
+     }
+ return false;
 }
 
 function mayorQueCincuenta(num) {
@@ -101,7 +100,7 @@ function mayorQueCincuenta(num) {
   return false;
 }
 
-function obtenesrResto(x, y) {
+function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
   var resto = (x % y);
@@ -114,9 +113,7 @@ function esPar(num) {
   // Tu código:
   if( num % 2 === 0) {
     return true;
-  }
-  else
-  {
+  } else {
     return false;
   }
 }
@@ -137,7 +134,6 @@ function elevarAlCuadrado(num) {
   // ojo: No es raiz cuadrada!
   // Tu código:
    return Math.pow(num, 2);
-
 }
 
 function elevarAlCubo(num) {
@@ -168,6 +164,8 @@ function redondearNumero(num) {
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba y devuélvelo
+  // Info vista en  de https://developer.mozilla.org/  (siempre respetando el copyright jeje)
+  //La función Math.ceil() lo que hace es devuelver el entero mayor o igual más próximo a un número dado
   // Tu código:
   return Math.ceil(num);
 }
@@ -184,7 +182,7 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  var combinar = (soy + nombre + apellido);
+  var combinar = (nombre + " " + apellido);
   return combinar;
 
 }
@@ -193,13 +191,17 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  var saludo = (Hola + nombre);
+  var saludo = ("Hola" + " " +nombre +"!");
   return saludo;
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un cuadrado teniendo su altura y ancho
+  // Acá veo que el nombre de la funcion es sobre un rectangulo y en la descripcion me rápidamente
+  // un cuadrado.
   // Tu código:
+  var area = (alto*ancho);
+  return area;
 }
 
 
