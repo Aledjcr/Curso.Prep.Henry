@@ -167,7 +167,7 @@ El último operador lógico es el operador "NOT" ("NO"). Está escrito como un s
 
 ```javascript
 if (!false) {
-    console.log('El ! devolverá true, porque es lo contrario de false, así que ste código se ejecutará');
+    console.log('El ! devolverá true, porque es lo contrario de false, así que este código se ejecutará');
 }
 
 if (!(1 === 1)) {
