@@ -1,5 +1,20 @@
 //homework conceptos
 //Expicaciones para una persona de 12 años
 
-//`for`
-//* `&&`, `||`, `!`
+//`for` : es un bucle, significa que es algo que se repite; sí se repite podemos hacer cosas una y otra vez sin tener que
+// escribir varias veces algo, por ejemplo, si queremos escribir los números de 2 en 2 hasta el 100 sería mas fácil
+// hacer un bucle (algo que se repita) que escriba todos los números sin que nosotros tengamos que hacerlo numero por número.
+
+// * : nos sirve para multiplicar  números.
+
+// `&&` (se pronuncia "Y" ) es una condición, la usamos cuando queremos que pase algo cuando lo que esta antes y después del "&&" se cumpla.
+// un ejemplo en la vida diaria seria; quiero aprender a manejar pero para esto se deben cumplir 2 condiciones
+// la primera es que debo tener auto, si esta se cumple pasamos ala segunda, que es necesito un profesor, si ambas condiciones
+// se cumplen se puede continuar y tendríamos el "&&" cumplido por así decirlo.
+
+// `||` (se pronuncia "O") esta condición es muy similar a la anterior con la excepción de que solo se debe cumplir segunda
+// de las 2 condiciones.
+
+// `!` (se pronuncia "NOT") este se utiliza para negar algo, o para hacer que algo nos de un valor contrario, si decirmos
+// que algo es cierto como que 2 es mayor que 1 (2 > 1) esto sera cierto, pero con el "!" podemos hacer que esa expresiones
+// sea falsa (!=2 > 1).
