@@ -1,6 +1,6 @@
 <p align='left'>
     <img  src='../logo.png' height='70px'>
-</p>
+    </p>
 # Lección 4: Javascript III (continuación de bucles `for` y Arrays)
 
 En esta lección cubriremos:
@@ -32,7 +32,7 @@ console.log(nombresEstudiantes.length);  // 4
 
 Podemos acceder a un elemento de una matriza en cualquier momento, solo necesitamos llamar al elemento por su posición en la matriz. Los elementos reciben una posición numérica (índice) de acuerdo con su ubicación en la matriz, en orden. El orden numérico de una matriz SIEMPRE comienza en 0, por lo que el primer elemento está en el índice 0, el segundo en el índice 1, el tercero en el 2, y así sucesivamente (esto puede ser complicado al principio, pero solo recuerda que las matrices siempre comienzan en 0).
 
-```javascript
+<!-- ```javascript -->
 const nombresEstudiantes = ['Martin', 'Antonio', 'Sara', 'Samuel'];
                                 0         1        2        3
 ```
@@ -123,7 +123,7 @@ for (let i = 0; i < nombresEstudiantes.length; i++) {
 // 'Antonio'
 // 'Sara'
 // 'Samuel'
-```
+  ```
 
 ## Abre la carpeta "homework" y completa la tarea descrita en el archivo README
 [Homework](https://github.com/atralice/Curso.Prep.Henry/tree/master/04-JS-III/homework)
